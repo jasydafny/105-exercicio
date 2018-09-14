@@ -1,6 +1,7 @@
 body{
+    width: 80vw;
     margin: 0 auto;
-        font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 a{
     color: white;
@@ -8,20 +9,14 @@ a{
 header{
     background-image: url('../img/fundo.jpg');
     height: 600px;
-    position: relative;
     opacity: 0.5;
     background-size:cover;
-    
-
-
 }
-nav{
+header nav{
     display:flex;
     justify-content: space-evenly;
     align-items:center;
     text-decoration: none;
-    
-    
 }
 
 header nav img {
@@ -35,10 +30,16 @@ header nav img {
 
 .menu a {
     text-decoration: none;
-    
 }
+
 .direita {
    align-content: space-evenly;
-}   
- 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.pesquisa{
+    justify-content: space-evenly;
+}
